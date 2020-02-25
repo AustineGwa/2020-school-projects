@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GetAHouse</string>
+
+    <array name="donation_organs">
+        <item>kidneys</item>
+        <item> heart</item>
+        <item>lung</item>
+        <item> liver</item>
+        <item>pancrease</item>
+        <item>small bowel</item>
+    </array>
+
+    <array name="donation_tissues">
+        <item>eyes</item>
+        <item> heart valves</item>
+        <item>bone</item>
+        <item>skin</item>
+        <item>veins</item>
+        <item>Tendons</item>
+    </array>
+
+</resources>

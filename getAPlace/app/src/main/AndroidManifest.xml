@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appgeeksarena.getahouse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".views.general.NotificationsActivity"
+            android:label="Notifications"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity android:name=".views.general.TermsAndConditionsActivity"
+            android:label="Terms And Conditions"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity android:name=".views.general.EducationalContentActivity"
+            android:label="Educational Content"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity android:name=".views.general.OrganSpecialistActivity"
+            android:label="Organ Specialist"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity android:name=".views.general.TestimonialsActivity"
+            android:label="Testimonials"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity android:name=".views.general.AvailableOrgansActivity"
+            android:label="Available Organs"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity android:name=".views.general.DonationRequestActivity"
+            android:label="Donation Request"
+            android:parentActivityName=".views.general.Dashboard"/>
+
+        <activity
+            android:name=".views.general.OrganCentersActivity"
+            android:label="Organ Centers"
+            android:parentActivityName=".views.general.Dashboard" />
+        <activity android:name=".views.specialist.SpecialistDashboard" />
+        <activity
+            android:name=".views.general.UserConcent"
+            android:parentActivityName=".views.general.Dashboard" />
+        <activity
+            android:name=".views.general.ArticlesActivity"
+            android:parentActivityName=".views.general.Dashboard" />
+        <activity
+            android:name=".views.general.LawsActivity"
+            android:parentActivityName=".views.general.Dashboard" />
+        <activity
+            android:name=".views.general.Dashboard"
+            android:label="Dashboard" />
+        <activity android:name=".views.general.LoginActivity" />
+        <activity
+            android:name=".views.general.RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".views.general.LoginActivity" />
+        <activity android:name=".views.general.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.donor.MainActivity" />
+    </application>
+
+</manifest>
